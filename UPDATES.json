@@ -1,0 +1,63 @@
+{
+  "updates": [
+    {
+      "version": "1.0.0",
+      "date": "2026-02-04",
+      "status": "current",
+      "features": [
+        "Core tech detection engine",
+        "Wappalyzer-compatible pattern matching",
+        "40+ technology detection",
+        "AI services detection",
+        "Beautiful popup UI",
+        "Export functionality"
+      ],
+      "bugFixes": [
+        "Fixed ReferenceError: Detector is not defined",
+        "Fixed popup rendering issues",
+        "Fixed duplicate Utils class",
+        "Fixed syntax errors in detector.js",
+        "Enhanced technology detection patterns"
+      ],
+      "technologies": 40,
+      "categories": 15
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-03-01",
+      "status": "planned",
+      "features": [
+        "More AI services (Cohere, Replicate, Together AI)",
+        "Version detection for technologies",
+        "Settings/options page",
+        "Detection history",
+        "Custom technology patterns"
+      ],
+      "technologies": 50,
+      "categories": 18
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-04-01",
+      "status": "planned",
+      "features": [
+        "API integration for technology data",
+        "Team/organization tracking",
+        "Competitor analysis features",
+        "Slack/email notifications",
+        "Custom exclusions/inclusions"
+      ],
+      "technologies": 60,
+      "categories": 20
+    }
+  ],
+  "compatibility": {
+    "chrome": "90+",
+    "firefox": "planned",
+    "edge": "planned"
+  },
+  "lastUpdated": "2026-02-04T10:00:00Z",
+  "author": "Rafid Siddique",
+  "repository": "github.com/user/wappalyzier",
+  "issues": "github.com/user/wappalyzier/issues"
+}

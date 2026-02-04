@@ -1,0 +1,27 @@
+Version,Release Date,Status,Feature Count,Tech Count,Category Count,Notes
+1.0.0,2026-02-04,Current,6,40,15,Core detection engine with AI support
+1.1.0,2026-03-01,Planned,5,50,18,Enhanced AI services and version detection
+1.2.0,2026-04-01,Planned,5,60,20,API integration and team features
+1.3.0,2026-05-01,Planned,4,70,22,Advanced analytics and reporting
+1.4.0,2026-06-01,Planned,3,80,25,Mobile and cross-browser support
+
+Features in v1.0.0:
+- Core tech detection engine
+- Wappalyzer-compatible pattern matching
+- 40+ technology detection
+- AI services detection (OpenAI, Claude, Gemini, etc.)
+- Beautiful popup UI with confidence scores
+- Export functionality (JSON)
+
+Bug Fixes in v1.0.0:
+- Fixed ReferenceError: Detector is not defined
+- Fixed popup rendering issues
+- Fixed duplicate Utils class
+- Fixed syntax errors in detector.js
+- Enhanced technology detection patterns
+
+Supported Technologies in v1.0.0:
+WordPress, WooCommerce, Shopify, Google Analytics, GA4, Facebook Pixel, Google Tag Manager, Site Kit, Mixpanel, React, Vue, Angular, Backbone.js, jQuery, jQuery Migrate, Underscore.js, Swiper, Bootstrap, Cloudflare, Cloudways, Elementor, Contact Form 7, MySQL, PHP, Cloudflare Bot Management, HTTP/3, Hello Elementor, Stripe, OpenAI, Claude, Google Gemini, Hugging Face, LangChain, LlamaIndex, Tailwind CSS, Radix UI, shadcn/ui, Framer Motion, Lucide, Lovable, Tinybird, React Router, HSTS, Open Graph
+
+Technology Categories:
+CMS, Ecommerce, Analytics, Tag managers, JavaScript frameworks, JavaScript libraries, CSS Frameworks, CDN, PaaS, Page builder, Form builders, Databases, Programming languages, Security, Miscellaneous, AI Services, AI Development, UI frameworks, Font scripts, Payment

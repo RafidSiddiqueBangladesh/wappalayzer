@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build outputs
+dist/
+build/
+*.zip
+
+# Backups
+*-old.js
+*-enhanced.js
+*-fixed.js
+backup/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Chrome Extension
+*.crx
+*.pem
+
+# Logs
+*.log
+logs/
+
+# Temporary
+temp/
+tmp/
+*.tmp
+
+# Environment
+.env
+.env.local

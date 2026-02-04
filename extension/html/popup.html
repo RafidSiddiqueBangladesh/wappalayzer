@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Detective</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>🔍 Tech Detective</h1>
+      <p class="subtitle">Technology & AI Detection</p>
+    </div>
+
+    <!-- Status -->
+    <div id="status" class="status loading">
+      <span class="spinner"></span>
+      <span id="statusText">Analyzing page...</span>
+    </div>
+
+    <!-- Main Content -->
+    <div id="content" class="content" style="display: none;">
+      <!-- Technologies Found -->
+      <div class="section">
+        <h2>📦 Technologies Found</h2>
+        <div id="technologiesList" class="tech-list">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+
+      <!-- Categories -->
+      <div class="section">
+        <h2>📂 By Category</h2>
+        <div id="categoriesList" class="categories-list">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+
+      <!-- Statistics -->
+      <div class="section">
+        <h2>📊 Statistics</h2>
+        <div class="stats">
+          <div class="stat-item">
+            <span class="stat-label">Total Technologies</span>
+            <span id="statTotal" class="stat-value">0</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Average Confidence</span>
+            <span id="statConfidence" class="stat-value">0%</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Categories</span>
+            <span id="statCategories" class="stat-value">0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="section">
+        <div class="actions">
+          <button id="refreshBtn" class="btn btn-primary">🔄 Refresh Analysis</button>
+          <button id="exportBtn" class="btn btn-secondary">📥 Export Data</button>
+          <button id="settingsBtn" class="btn btn-secondary">⚙️ Settings</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Error Message -->
+    <div id="error" class="error" style="display: none;">
+      <p id="errorText"></p>
+    </div>
+
+    <!-- No Techs Found -->
+    <div id="noTechs" class="no-techs" style="display: none;">
+      <p>😊 No technologies detected on this page</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <small>v1.0.0 | Made by Rafid Siddique with ❤️</small>
+  </div>
+
+  <script src="../js/utils.js"></script>
+  <script src="../js/detector.js"></script>
+  <script src="../js/popup.js"></script>
+</body>
+</html>

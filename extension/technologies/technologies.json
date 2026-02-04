@@ -1,0 +1,291 @@
+{
+  "React": {
+    "name": "React",
+    "category": "JavaScript Frameworks",
+    "icon": "React.svg",
+    "website": "https://react.dev",
+    "patterns": {
+      "html": ["React.createElement", "data-react", "react-root"],
+      "js": ["window.__REACT", "__REACT_DEVTOOLS"],
+      "scripts": ["/react\\..*\\.js", "/react-dom\\..*\\.js"],
+      "headers": []
+    }
+  },
+  "Vue.js": {
+    "name": "Vue.js",
+    "category": "JavaScript Frameworks",
+    "icon": "Vue.svg",
+    "website": "https://vuejs.org",
+    "patterns": {
+      "html": ["v-app", "v-bind", "v-model", "data-v-"],
+      "js": ["window.__VUE__", "window.Vue"],
+      "scripts": ["/vue\\..*\\.js"],
+      "headers": []
+    }
+  },
+  "Angular": {
+    "name": "Angular",
+    "category": "JavaScript Frameworks",
+    "icon": "Angular.svg",
+    "website": "https://angular.io",
+    "patterns": {
+      "html": ["ng-app", "ng-model", "ng-bind", "data-ng-"],
+      "js": ["window.angular", "ng.version"],
+      "scripts": ["/angular.*\\.js"],
+      "headers": []
+    }
+  },
+  "jQuery": {
+    "name": "jQuery",
+    "category": "JavaScript Libraries",
+    "icon": "jQuery.svg",
+    "website": "https://jquery.com",
+    "patterns": {
+      "html": [],
+      "js": ["window.jQuery", "window.$", "jQuery.fn.jquery"],
+      "scripts": ["/jquery.*\\.js"],
+      "headers": []
+    }
+  },
+  "Bootstrap": {
+    "name": "Bootstrap",
+    "category": "CSS Frameworks",
+    "icon": "Bootstrap.svg",
+    "website": "https://getbootstrap.com",
+    "patterns": {
+      "html": ["class=\"container\"", "class=\"row\"", "class=\"col-", "bootstrap"],
+      "js": [],
+      "scripts": ["/bootstrap.*\\.js", "/bootstrap.*\\.css"],
+      "headers": []
+    }
+  },
+  "WordPress": {
+    "name": "WordPress",
+    "category": "CMS",
+    "icon": "WordPress.svg",
+    "website": "https://wordpress.org",
+    "patterns": {
+      "html": ["wp-content", "wp-includes", "wp-json"],
+      "js": ["window.wp", "window.wpApiSettings"],
+      "scripts": ["/wp-content/", "/wp-includes/"],
+      "headers": ["X-Powered-By: WordPress"]
+    }
+  },
+  "Google Analytics": {
+    "name": "Google Analytics",
+    "category": "Analytics",
+    "icon": "Google Analytics.svg",
+    "website": "https://analytics.google.com",
+    "patterns": {
+      "html": ["ga\\(", "gtag\\(", "ga\\('create'"],
+      "js": ["window.ga", "window.gtag"],
+      "scripts": ["/google-analytics", "/googletagmanager", "/analytics.js", "/gtag.js"],
+      "headers": []
+    }
+  },
+  "Mixpanel": {
+    "name": "Mixpanel",
+    "category": "Analytics",
+    "icon": "Mixpanel.svg",
+    "website": "https://mixpanel.com",
+    "patterns": {
+      "html": ["mixpanel"],
+      "js": ["window.mixpanel"],
+      "scripts": ["/mixpanel"],
+      "headers": []
+    }
+  },
+  "Stripe": {
+    "name": "Stripe",
+    "category": "Payment Processors",
+    "icon": "Stripe.svg",
+    "website": "https://stripe.com",
+    "patterns": {
+      "html": ["stripe"],
+      "js": ["window.Stripe"],
+      "scripts": ["/stripe\\.js", "stripe.com"],
+      "headers": []
+    }
+  },
+  "PayPal": {
+    "name": "PayPal",
+    "category": "Payment Processors",
+    "icon": "PayPal.svg",
+    "website": "https://paypal.com",
+    "patterns": {
+      "html": ["paypal"],
+      "js": ["window.paypal"],
+      "scripts": ["/paypal", "paypalobjects"],
+      "headers": []
+    }
+  },
+  "Firebase": {
+    "name": "Firebase",
+    "category": "Web Frameworks",
+    "icon": "Firebase.svg",
+    "website": "https://firebase.google.com",
+    "patterns": {
+      "html": ["firebase"],
+      "js": ["window.firebase"],
+      "scripts": ["/firebase", "firebaseio.com"],
+      "headers": []
+    }
+  },
+  "AWS": {
+    "name": "AWS",
+    "category": "Hosting",
+    "icon": "AWS.svg",
+    "website": "https://aws.amazon.com",
+    "patterns": {
+      "html": ["amazonaws", "s3\\."],
+      "js": ["AWS"],
+      "scripts": ["/amazonaws"],
+      "headers": ["Server: AmazonS3"]
+    }
+  },
+  "Google Cloud": {
+    "name": "Google Cloud",
+    "category": "Hosting",
+    "icon": "Google Cloud.svg",
+    "website": "https://cloud.google.com",
+    "patterns": {
+      "html": ["gstatic\\.com", "appspot\\.com"],
+      "js": [],
+      "scripts": ["/gstatic", "appspot\\.com"],
+      "headers": []
+    }
+  },
+  "Cloudflare": {
+    "name": "Cloudflare",
+    "category": "CDN",
+    "icon": "Cloudflare.svg",
+    "website": "https://cloudflare.com",
+    "patterns": {
+      "html": ["cloudflare"],
+      "js": [],
+      "scripts": [],
+      "headers": ["Server: cloudflare"]
+    }
+  },
+  "OpenAI": {
+    "name": "OpenAI",
+    "category": "AI Services",
+    "icon": "OpenAI.svg",
+    "website": "https://openai.com",
+    "patterns": {
+      "html": ["openai", "gpt", "chatgpt"],
+      "js": ["window.ChatGPT", "window.openai", "openai\\.api", "window.OpenAI"],
+      "scripts": ["api\\.openai\\.com", "platform\\.openai\\.com", "cdn\\.openai\\.com"],
+      "headers": ["X-Powered-By.*openai"],
+      "dom": ["[data-testid*='openai']", "[data-openai]"]
+    }
+  },
+  "Claude (Anthropic)": {
+    "name": "Claude",
+    "category": "AI Services",
+    "icon": "Claude.svg",
+    "website": "https://anthropic.com",
+    "patterns": {
+      "html": ["claude", "anthropic"],
+      "js": ["window.Claude", "window.Anthropic", "window.anthropic"],
+      "scripts": ["api\\.anthropic\\.com", "claude-ai"],
+      "headers": []
+    }
+  },
+  "Google Gemini": {
+    "name": "Google Gemini",
+    "category": "AI Services",
+    "icon": "Google.svg",
+    "website": "https://gemini.google.com",
+    "patterns": {
+      "html": ["gemini", "bard"],
+      "js": ["window.Gemini", "window.GoogleAI", "google\\.ai"],
+      "scripts": ["generativelanguage\\.googleapis\\.com", "ai\\.google\\.dev"],
+      "headers": []
+    }
+  },
+  "Hugging Face": {
+    "name": "Hugging Face",
+    "category": "AI Services",
+    "icon": "HuggingFace.svg",
+    "website": "https://huggingface.co",
+    "patterns": {
+      "html": ["hugging.face", "huggingface"],
+      "js": ["window.HuggingFace", "huggingface\\.co/models"],
+      "scripts": ["cdn-lfs\\.huggingface\\.co", "huggingface\\.co/inference"],
+      "headers": []
+    }
+  },
+  "Replicate": {
+    "name": "Replicate",
+    "category": "AI Services",
+    "icon": "Replicate.svg",
+    "website": "https://replicate.com",
+    "patterns": {
+      "html": ["replicate"],
+      "js": ["window.Replicate", "replicate\\.com/api"],
+      "scripts": ["api\\.replicate\\.com"],
+      "headers": []
+    }
+  },
+  "Cohere": {
+    "name": "Cohere",
+    "category": "AI Services",
+    "icon": "Cohere.svg",
+    "website": "https://cohere.ai",
+    "patterns": {
+      "html": ["cohere"],
+      "js": ["window.Cohere", "cohere\\.api"],
+      "scripts": ["api\\.cohere\\.ai"],
+      "headers": []
+    }
+  },
+  "Vercel AI": {
+    "name": "Vercel AI",
+    "category": "AI Services",
+    "icon": "Vercel.svg",
+    "website": "https://vercel.com/ai",
+    "patterns": {
+      "html": ["vercel.*ai", "ai\\.vercel"],
+      "js": ["window.VercelAI", "ai\\.useChat"],
+      "scripts": ["/ai\\.js", "sdk\\.vercel\\.ai"],
+      "headers": []
+    }
+  },
+  "LangChain": {
+    "name": "LangChain",
+    "category": "AI Development",
+    "icon": "LangChain.svg",
+    "website": "https://langchain.com",
+    "patterns": {
+      "html": ["langchain"],
+      "js": ["window.LangChain", "langchain"],
+      "scripts": ["langchain", "npm/langchain"],
+      "headers": []
+    }
+  },
+  "TensorFlow": {
+    "name": "TensorFlow",
+    "category": "ML Framework",
+    "icon": "TensorFlow.svg",
+    "website": "https://tensorflow.org",
+    "patterns": {
+      "html": ["tensorflow", "tfjs"],
+      "js": ["window.tf", "tensorflow", "window.TensorFlow"],
+      "scripts": ["cdn\\.jsdelivr\\.net/npm/@tensorflow/tfjs", "tfjs"],
+      "headers": []
+    }
+  },
+  "PyTorch": {
+    "name": "PyTorch",
+    "category": "ML Framework",
+    "icon": "PyTorch.svg",
+    "website": "https://pytorch.org",
+    "patterns": {
+      "html": ["pytorch"],
+      "js": ["window.torch", "pytorch"],
+      "scripts": ["pytorch"],
+      "headers": []
+    }
+  }
+}
